@@ -31,9 +31,23 @@
 
 <body>
   <main class="container-boundaries flex flex-col h-100-vh flex-center">
-      <h1 align="center">Project</h1>
-      <h2 align="center">
-        Coming Soon
+      <h1 align="center" class="m-0 p-0">Project</h1>
+      <h2 align="center" class="m-0 p-0">
+        <small>Coming Soon</small>
       </h2>
+      <h1 align="center" id="timer" class="mt-2"></h1>
+      <script src="js/timer.js"></script>
+      <script>
+
+        // Disable the below lines to remove the timer
+
+        const counter = new CountdownTimer({
+          endDate: new Date(new Date().setDate(new Date().getDate()+3)),
+          elm:"timer"
+        });
+
+        counter.start();
+
+      </script>
 </body>
 </html>
