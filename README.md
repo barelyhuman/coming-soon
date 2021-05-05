@@ -1,13 +1,14 @@
 # coming-soon 
 
 ## Usage 
-- Replace Project in the `index.html` file with the name of the project! 
-- Replace `https://demowebsite.xyz/` with the website url in the `index.html` page. 
+- Replace `Project` in the `index.html` file with the name of the project! 
+- Replace `Site Description` with a valid description of the app or product in `index.html`. 
+- Replace `https://demowebsite.xyz/` with the website url in `index.html`. 
 
 ## Additional Features
 - [x]  SEO and Open Graph Tags
 - [x]  System level dark mode
-- [ ]  Countdown Timer
+- [x]  Countdown Timer
 
 ## FAQ ?
 Why no contact forms ? 
